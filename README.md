@@ -14,7 +14,7 @@ This is an object detection which detects the objects purely based on color. It 
 ## Usage
 `Image.exe path_to_image path_to_object1, path_to_object2, ...`
 
-## Input
+## Sample Input
 `Image.exe resources\multi_object_test_new\update_rgb\Oswald_and_Volleyball_v2.rgb resources\dataset\data_sample_rgb\Oswald_object.rgb resources\dataset\data_sample_rgb\Volleyball_object.rgb`
 
 ## Output
