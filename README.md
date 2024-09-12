@@ -10,12 +10,16 @@ This is an object detection which detects the objects purely based on color. It 
 
 ## Installations
 - Install [gcc compiler](https://gcc.gnu.org/gcc-14/)
-- `git clone https://github.com/splendidbug/Color-Based-Object-Detection-.git`
+- ```
+  git clone https://github.com/splendidbug/Color-Based-Object-Detection-.git
+  ```
 ## Usage
 `Image.exe path_to_image path_to_object1, path_to_object2, ...`
 
 ## Sample Input
-`Image.exe resources\multi_object_test_new\update_rgb\Oswald_and_Volleyball_v2.rgb resources\dataset\data_sample_rgb\Oswald_object.rgb resources\dataset\data_sample_rgb\Volleyball_object.rgb`
+```
+Image.exe resources\multi_object_test_new\update_rgb\Oswald_and_Volleyball_v2.rgb resources\dataset\data_sample_rgb\Oswald_object.rgb resources\dataset\data_sample_rgb\Volleyball_object.rgb
+```
 
 ## Output
 1. Identifying Oswald and a volley ball. Draws a bounding box around both the objects with the object name.
