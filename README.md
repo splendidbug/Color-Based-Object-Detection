@@ -25,3 +25,10 @@ This is an object detection which detects the objects purely based on color. It 
 2. Identifying Pikachu. Draws a bounding box around both the objects with the object name.
 
 ![Alt text](Assets/output2.png?raw=true "Title")
+
+## Methodology
+1. First the RGB input image and objects are converted into HSV color space.
+2. After this, color ranges in object image are identified and weights are assigned where a color range is given more weight if more number of pixels fall in the color range. These weights and colors are corrosponed with that of the input image.
+3. Once the colors and weights are identified, a mask is built on the stipulated area where the object is present.
+4. This is mask is then reduced in size to match the aspect ratio of the object in the object image.
+5. A bounding box is created and the name of object is assigned 
